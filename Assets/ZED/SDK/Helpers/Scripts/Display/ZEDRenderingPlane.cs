@@ -665,7 +665,7 @@ public class ZEDRenderingPlane : MonoBehaviour
     /// <summary>
     /// Configure the materials and buffer for the forward rendering path.
     /// </summary>
-    private void SetForward()
+    public void SetForward()
     {
         ghasShadows = false;
 

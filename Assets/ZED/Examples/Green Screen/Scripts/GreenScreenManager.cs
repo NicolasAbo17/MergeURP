@@ -409,6 +409,10 @@ public class GreenScreenManager : MonoBehaviour
 
         //We set the material again in case it has changed. 
         //screen = gameObject.transform.GetChild(0).gameObject;
+        if(screenManager.matRGB == null)
+        {
+            screenManager.SetForward();
+        }
         finalMat = screenManager.matRGB;
 
         finalTexture = new RenderTexture(cameraManager.zedCamera.ImageWidth, cameraManager.zedCamera.ImageHeight, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.Linear);
