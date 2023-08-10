@@ -52,7 +52,7 @@ Shader "Nexweron/Builtin/ChromaKey/Unlit_ChromaKey_Alpha" {
             #endif
 			
 		    #ifdef _COLORSPACE_YCBCR
-				c = ApplyChromaKeyAlphaYCbCr(c, _KeyColor.brg, _DChroma, _DChromaT, _DLuma, _DLumaT);
+				c = ApplyChromaKeyAlphaYCbCr(c, _KeyColor.rgb, _DChroma, _DChromaT, _DLuma, _DLumaT);
             #elif _COLORSPACE_YIQ
                 c = ApplyChromaKeyAlphaYIQ(c, _KeyColor.rgb, _DChroma, _DChromaT, _DLuma, _DLumaT);
             #endif
