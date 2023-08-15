@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Connecting.unity
+    guid: d0d98731b97487843a21d2a454c1eb9e
+  - enabled: 1
+    path: Assets/Scenes/Ecmocopter.unity
+    guid: 63299a94bd4fbd24c86fa4a6ac0d8dfc
+  - enabled: 1
+    path: Assets/Scenes/Host.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LobbyClient.unity
+    guid: c08debfc883ee9c4a9410a7b6fb6c7a0
+  - enabled: 1
+    path: Assets/Scenes/LobbyHost.unity
+    guid: 5d70ab23309e7a3448498713a774260b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e0682446b489f5a47a0e8e102f5b0e34,
       type: 2}
