@@ -16,7 +16,7 @@ MonoBehaviour:
     AppIdRealtime: 69757451-5843-4079-9e94-2fda51c78024
     AppIdFusion: 
     AppIdChat: 
-    AppIdVoice: 
+    AppIdVoice: 69757451-5843-4079-9e94-2fda51c78024
     AppVersion: 
     UseNameServer: 1
     FixedRegion: 
@@ -28,18 +28,18 @@ MonoBehaviour:
     AuthMode: 0
     EnableLobbyStatistics: 0
     NetworkLogging: 1
-  DevRegion: 
+  DevRegion: us
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
   StartInOfflineMode: 0
   RpcList:
-  - CheckForAnchorsShared
+  - CantHearYou
+  - ChangeColour
   - ClickRpc
   - DestroyRpc
-  - DestroySpaceship
-  - Fire
-  - RespawnSpaceship
+  - HeresWhy
+  - CheckForAnchorsShared
   - SendSessionStart
   - SetCity
   - SetDay
@@ -47,6 +47,9 @@ MonoBehaviour:
   - SetOcean
   - SetRainy
   - SetSunny
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
-  DevRegionSetOnce: 0
+  ShowSettings: 1
+  DevRegionSetOnce: 1
